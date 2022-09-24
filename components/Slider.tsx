@@ -14,7 +14,10 @@ const Slider = ({
   };
 }) => {
   return (
-    <div className="w-52 h-1/2 pb-10 h-60 min-w-fit bg-slate-300 mt-10 rounded-md relative border-t-4 border-sky-700 pt-4 ">
+    <div
+      style={{ height: "fit-content" }}
+      className="w-52 pb-10 h-60 min-w-fit bg-slate-300 mt-10 rounded-md relative border-t-4 border-sky-700 pt-4 "
+    >
       <div className="h-16 w-16 absolute top-0 left-2/4 border-4 -translate-y-2/4 -translate-x-2/4 rounded-full">
         <img
           className="object-cover w-full h-full rounded-full"
