@@ -3,7 +3,7 @@ import Microsoft from "./microsoft.svg";
 import Vercel from "./vercel.svg";
 import Pepsi from "./pepsi.svg";
 import Tesla from "./tesla-9.svg";
-import Google from "./Google-2015.svg";
+import Google from "./google-2015.svg";
 
 export const data = [
   {
